@@ -1,3 +1,4 @@
+1
 # FileCompressor
 
 A component that compresses one or more files into a zip-archive in the browser. It uses the 

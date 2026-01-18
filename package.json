@@ -12,9 +12,13 @@
   },
   "license": "ISC",
   "author": "Danny Moerkerke <danny@dannymoerkerke.nl>",
-  "type": "esm",
+  "type": "module",
   "main": "file-compressor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "unzipper": "^0.10.14"
   }
 }
